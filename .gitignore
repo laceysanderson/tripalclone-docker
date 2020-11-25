@@ -1,0 +1,6 @@
+alldir.tar.gz
+filesdir.tar.gz
+database.pgdump
+*.tar.gz
+*.pgdump
+*.sql

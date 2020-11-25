@@ -2,7 +2,7 @@
 
 Creating a clone of an existing website in Docker for development and testing purposes.
 
-## Usage
+## Setup
 
 ### In your existing site:
 
@@ -47,7 +47,7 @@ docker build --tag=[db]:[date] .
 
 This will produce a docker image which you can spawn as many containers from as you like which represents this exact time in your production Tripal site!
 
-### Create a free standing container for UI testing.
+## Create a free standing container for UI testing.
 
 For this step it does not matter where you run the following run command as the container is fully free standing.
 
